@@ -14,5 +14,4 @@ The resume is structured to provide a comprehensive overview of my professional 
 
 Open the File Named: Resume.pdf.
 
-```bash
-pdflatex resume.tex
+
