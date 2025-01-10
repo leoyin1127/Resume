@@ -1,0 +1,179 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+\pagestyle{fancy}
+\fancyhf{} 
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-5pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.05in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Large \scshape Shuolin (Leo) Yin} \\ \vspace{5pt}
+    \small +1 (647) 674-6127   $|$ 
+    \href{mailto:shuolin.yin@gmail.com}{leo.yin@mail.utoronto.ca} \\
+    \href{https://github.com/leoyin1127}{https://github.com/leoyin1127} $|$
+    \href{https://www.linkedin.com/in/shuolinyin/}{https://www.linkedin.com/in/shuolinyin/}
+\end{center}
+
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+  {University of Toronto}{Toronto, ON}
+  {Bachelor of Applied Science and Engineering in Computer Engineering + PEY Co-op}{Sep 2023 -- Apr 2027}
+  \resumeItemListStart
+    \resumeItem{Recipient of Faculty Of Applied Science And Engineering Admission Scholarship}
+    \resumeItem{Recipient of Edward S. Rogers Sr. Admission Scholarship}
+  \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\section{Work Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+  {The Institute of Automation, Chinese Academy of Sciences (CASIA) }{Beijing, China}
+  {Research Assistant}{Feb 2024 - Present}
+  \resumeItemListStart
+    \resumeItem{Investigated MLLM hallucination reduction through systematic literature review and experimental design, contributing to methodology planned for ECCV 2025 publication}
+    \resumeItem{Developed automated data pipeline for MLLM benchmark creation using Python and custom annotation tools, reducing data processing time by 300\% and improving annotation accuracy by 40\%}
+    \resumeItem{Streamlined research communication by delivering weekly technical presentations and detailed progress reports, facilitating effective collaboration across the team.}
+    \resumeItem{Conducted extensive model experiments on SOTA MLLM architectures using PyTorch, systematically evaluating hallucination reduction methods and identifying key improvement opportunities}
+    % \resumeItem{Still Maintaining the confidentiality of the project's specific ideas and topics due to the planned publication of the research paper.}
+  \resumeItemListEnd
+
+\resumeSubheading
+  {VolunTrack Org.}{Toronto, ON}
+  {President/Founder}{Jun 2022 - Sep 2024}
+  \resumeItemListStart
+    \resumeItem{Founded and scaled non-profit organization through structured four-tier management system, growing team to 40+ members and establishing partnerships with 100+ global non-profits}
+    \resumeItem{Architected and developed full-stack volunteer management platform using React Native and React.js for web/mobile applications, achieving 1000+ monthly active users}
+    \resumeItem{Secured and managed Google Cloud Platform partnership, obtaining \$50,000 in credits and implementing technical training program for 20+ development team members}
+    \resumeItem{Implemented CI/CD pipeline with Agile methodology, leading to successful deployment of 15+ major features, 4 major revisions and reducing deployment time by 70\%}
+    \resumeItem{Designed scalable database architecture using Firebase Realtime Database and Cloud Firestore, integrating with GCP services for efficient data management across 100+ organization profiles} 
+    \resumeItem{Established tech mentorship program connecting students with real-world projects, resulting in 30+ successful project completions and 10+ conference speaking engagements}
+  \resumeItemListEnd 
+  
+\resumeSubHeadingListEnd
+
+\section{Project/School Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+  {IEEE UofT}{Toronto, ON}
+  {Web Team Associate}{Jun 2024 - Present}
+  \resumeItemListStart
+    \resumeItem{Developed and maintained full-stack web applications using React.js frontend and Django backend, implementing responsive design for IEEE UofT's main website and event platforms}
+    \resumeItem{Optimized website performance through API optimization and caching strategies, improving load time and UX}
+    \resumeItem{Collaborated with the web team to implement new features and maintain existing functionalities, ensuring consistent user experience across all platforms}
+\resumeItemListEnd
+
+\resumeSubheading
+  {YiXing Software Development}{Toronto, ON}
+  {Project Leader / Co-Founder}{Jun 2023 - May 2024}
+  \resumeItemListStart
+      \resumeItem{Spearheaded development of AI-driven travel planning platform by integrating custom-trained LLM models with React Native, enabling personalized itinerary generation based on user preferences}
+      \resumeItem{Designed and implemented RAG system using LangChain and vector databases, enhancing travel recommendations by leveraging historical itinerary data}
+      \resumeItem{Built scalable backend infrastructure using AWS Lambda and Node.js, implementing RESTful APIs and microservices architecture for efficient data processing}
+      \resumeItem{Led agile development team of 6 members through full product lifecycle, from initial concept to successful MVP launch, conducting regular code reviews and technical planning sessions}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\section{Skills}
+\resumeSubHeadingListStart
+  \resumeSubItem{Programming Languages:}{Python, JavaScript, C/C++, C\#, HTML, Swift, MATLAB}
+  \resumeSubItem{Frameworks \& Libraries:}{React Native, React.js, Node.js, Django, LangChain, OpenCV, YOLO, PyTorch}
+  \resumeSubItem{Cloud \& DevOps:}{AWS (Lambda), Google Cloud Platform, Firebase, Git, CI/CD}
+  \resumeSubItem{Development Tools:}{VS Code, Xcode, Unity, Fusion 360, Blender, AutoCAD}
+\resumeSubHeadingListEnd
+
+\end{document}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
