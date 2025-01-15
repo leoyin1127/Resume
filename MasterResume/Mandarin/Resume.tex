@@ -1,0 +1,176 @@
+\documentclass[letterpaper,11pt]{article}
+
+% --1. 删除或注释掉 \usepackage[english]{babel}，改用 ctex 管理中文 --
+\usepackage[UTF8]{ctex}
+
+% --2. 显式关闭 ctex 默认的字体集并手动指定中文字体（Mac系统示例）--
+\ctexset{
+  fontset = none
+}
+\setCJKmainfont{PingFang SC}
+\setCJKsansfont{PingFang SC}
+\setCJKmonofont{PingFang SC}
+
+% 其余非中文相关的包保留即可
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{tabularx}
+% \input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} 
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% 调整页边距
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% 章节格式
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% \pdfgentounicode=1
+
+%-------------------------
+% 自定义命令
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-5pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.05in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Large \scshape Shuolin (Leo) Yin} \\ \vspace{5pt}
+    \small +1 (647) 674-6127 $|$
+    \href{mailto:leo.yin@mail.utoronto.ca}{leo.yin@mail.utoronto.ca} \\
+    \href{https://github.com/leoyin1127}{https://github.com/leoyin1127} $|$
+    \href{https://www.linkedin.com/in/shuolinyin/}{https://www.linkedin.com/in/shuolinyin/}
+\end{center}
+
+\section{教育经历}
+\resumeSubHeadingListStart
+  \resumeSubheading
+  {多伦多大学}{加拿大多伦多}
+  {计算机工程应用科学与工程学士（含 PEY Co-op 实习项目）}{2023年9月 -- 2027年4月}
+  \resumeItemListStart
+    \resumeItem{获得多伦多大学工程学院入学奖学金}
+    \resumeItem{获得 Edward S. Rogers Sr. 入学奖学金}
+  \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\section{工作经历}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+  {中国科学院自动化研究所 (CASIA)}{中国北京}
+  {研究助理}{2024年2月 -- 2024年9月}
+  \resumeItemListStart
+    \resumeItem{通过系统性文献调研和实验设计，研究多模态大模型（MLLM）幻觉（Hallucination）问题的解决方案，为 ECCV 2025 论文发表奠定方法论基础}
+    \resumeItem{使用 Python 和自定义标注工具搭建自动化数据处理流水线，用于生成多模态大模型基准测试数据，数据处理效率提升 300\%，标注准确率提高 40\%}
+    \resumeItem{每周进行技术汇报和撰写详细进度报告，提升团队间协作效率并促进研究成果的交流}
+    \resumeItem{使用 PyTorch 在多种前沿多模态大模型上开展系统性实验，评估幻觉问题的减缓策略并识别关键改进点}
+  \resumeItemListEnd
+
+\resumeSubheading
+  {VolunTrack 非营利组织}{加拿大多伦多}
+  {主席/创始人}{2022年6月 -- 2024年9月}
+  \resumeItemListStart
+    \resumeItem{创办并规模化运营非营利组织，通过建立四级管理体系，将团队扩展至 40+ 名成员并与全球超过 100 家非营利组织建立合作关系}
+    \resumeItem{基于 React Native 与 React.js 开发完整的志愿者管理平台（涵盖 Web 和移动端），月活跃用户数量超过 1000+}
+    \resumeItem{争取到 Google Cloud Platform 的合作，获得云资源补贴以及技术培训项目，培养团队中 20+ 名开发人员}
+    \resumeItem{使用敏捷开发方法并结合 CI/CD 流程，在两年内成功部署 15+ 个主要功能、4 次重大版本迭代，部署效率提升 70\%}
+    \resumeItem{使用 Firebase Realtime Database 和 Cloud Firestore 构建可扩展数据库架构，并集成 GCP 服务，为 100+ 个组织资料提供高效数据管理}
+    \resumeItem{建立面向学生的技术指导项目，将其与真实世界项目对接，完成 30+ 个成功项目并在 10+ 个会议上进行演讲分享}
+  \resumeItemListEnd 
+
+\resumeSubHeadingListEnd
+
+\section{项目 / 校园经历}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+  {IEEE UofT}{加拿大多伦多}
+  {Web 团队成员}{2024年6月 -- 至今}
+  \resumeItemListStart
+    \resumeItem{使用 React.js（前端）与 Django（后端）构建并维护全栈 Web 应用，包括 IEEE UofT 官方网站和活动平台，同时实现响应式设计}
+    \resumeItem{通过优化 API 和缓存策略提升网站性能，改善加载速度和用户体验}
+    \resumeItem{与团队协作开发新功能，维护已有功能，确保跨平台的一致用户体验}
+  \resumeItemListEnd
+
+\resumeSubheading
+  {YiXing 软件开发}{加拿大多伦多}
+  {项目负责人 / 联合创始人}{2023年6月 -- 2024年5月}
+  \resumeItemListStart
+    \resumeItem{带领团队开发基于AI的旅行规划平台，自定义训练LLM模型集成于 React Native，针对用户偏好生成个性化行程}
+    \resumeItem{使用 LangChain 及向量数据库实现 RAG系统，通过利用历史行程数据提升推荐效果}
+    \resumeItem{采用 AWS Lambda 与 Node.js 搭建可扩展后端基础设施，实现基于微服务和 RESTful API 的高效数据处理}
+    \resumeItem{领导 6 人的敏捷开发团队完成从概念到 MVP 的全流程，定期组织代码审查和技术方案讨论}
+  \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\section{技能}
+\resumeSubHeadingListStart
+  \resumeSubItem{编程语言：}{Python, JavaScript, C/C++, C\#, HTML, Swift, MATLAB}
+  \resumeSubItem{框架与库：}{React Native, React.js, Node.js, Django, LangChain, OpenCV, YOLO, PyTorch}
+  \resumeSubItem{云与 DevOps：}{AWS（Lambda）, Google Cloud Platform, Firebase, Git, CI/CD}
+  \resumeSubItem{开发工具：}{VS Code, Xcode, Unity, Fusion 360, Blender, AutoCAD}
+\resumeSubHeadingListEnd
+
+\end{document}
