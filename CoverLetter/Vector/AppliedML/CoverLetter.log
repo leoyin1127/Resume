@@ -3,8 +3,8 @@ entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/leoyin/Development/Resume/CoverLetter/Vector/HealthAI
-(/Users/leoyin/Development/Resume/CoverLetter/Vector/HealthAI.tex
+**/Users/leoyin/Development/Resume/CoverLetter/Vector/AppliedML/CoverLetter
+(/Users/leoyin/Development/Resume/CoverLetter/Vector/AppliedML/CoverLetter.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22> (/usr/local/texlive/2023/texmf-dist/tex/latex/moderncv/moderncv.cls
 Document Class: moderncv 2022-02-21 v2.3.1 modern curriculum vitae and letter document class
@@ -549,8 +549,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 Package hyperref Info: Option `breaklinks' set `true' on input line 13.
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 13.
- (./HealthAI.aux)
-\openout1 = `HealthAI.aux'.
+ (./CoverLetter.aux)
+\openout1 = `CoverLetter.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
@@ -643,9 +643,9 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring OFF on input line 13.
-(./HealthAI.out) (./HealthAI.out)
+(./CoverLetter.out) (./CoverLetter.out)
 \@outlinefile=\write4
-\openout4 = `HealthAI.out'.
+\openout4 = `CoverLetter.out'.
 
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on input line 22.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd)
@@ -659,20 +659,20 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 22.
  [1
 
-{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}] (./HealthAI.aux)
-Package rerunfilecheck Info: File `HealthAI.out' has not changed.
+{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}] (./CoverLetter.aux)
+Package rerunfilecheck Info: File `CoverLetter.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 26809 strings out of 476025
- 518208 string characters out of 5790018
- 1861388 words of memory out of 5000000
+ 26803 strings out of 476025
+ 518243 string characters out of 5790018
+ 1862388 words of memory out of 5000000
  46794 multiletter control sequences out of 15000+600000
- 518781 words of font info for 69 fonts, out of 8000000 for 9000
+ 518628 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 129i,11n,122p,1053b,470s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 129i,11n,122p,1066b,470s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb>
-Output written on HealthAI.pdf (1 page, 100338 bytes).
+Output written on CoverLetter.pdf (1 page, 101868 bytes).
 PDF statistics:
  45 PDF objects out of 1000 (max. 8388607)
  31 compressed objects within 1 object stream
