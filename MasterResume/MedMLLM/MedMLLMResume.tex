@@ -1,0 +1,186 @@
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+\pagestyle{fancy}
+\fancyhf{} 
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-5pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.05in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Large \scshape Shuolin (Leo) Yin} \\ \vspace{5pt}
+    \small +1 (647) 674-6127   $|$ 
+    \href{mailto:shuolin.yin@gmail.com}{leo.yin@mail.utoronto.ca} \\
+    \href{https://github.com/leoyin1127}{https://github.com/leoyin1127} $|$
+    \href{https://www.linkedin.com/in/shuolinyin/}{https://www.linkedin.com/in/shuolinyin/}
+\end{center}
+
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+  {University of Toronto}{Toronto, ON}
+  {Bachelor of Applied Science and Engineering in Computer Engineering + PEY Co-op}{Sep 2023 -- Apr 2027}
+  \resumeItemListStart
+    \resumeItem{Recipient of Faculty Of Applied Science And Engineering Admission Scholarship}
+    \resumeItem{Recipient of Edward S. Rogers Sr. Admission Scholarship}
+  \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\section{Work Experience}
+\resumeSubHeadingListStart
+\resumeSubheading
+{The Institute of Automation, Chinese Academy of Sciences (CASIA)}{Beijing, China}
+{Research Assistant under Prof. Yang Yang, Prof. Jinlin Wu and Sr. PD Zhen Chen}{Feb 2024 - Sep 2024}
+\resumeItemListStart
+\resumeItem{Streamlined research on \textbf{Medical multimodal large language models (MLLMs)} through systematic literature review and novel experimental design, developing methodology for \textbf{MICCAI 2025 submission}}
+\resumeItem{Engineered an \textbf{end-to-end data pipeline} for medical imaging benchmark creation using \textbf{Python}, incorporating automated quality checks and custom annotation tools, resulting in \textbf{75\%} reduction in processing time and \textbf{40\%} improvement in annotation accuracy}
+\resumeItem{Implemented and evaluated \textbf{SOTA MLLM architectures} using \textbf{PyTorch}, focusing on cross-modal attention mechanisms and medical knowledge integration for enhanced diagnosis reliability}
+\resumeItem{Spearheaded \textbf{weekly technical discussions} and authored comprehensive \textbf{research documentation}, facilitating knowledge transfer across interdisciplinary teams of \textbf{medical experts} and \textbf{ML researchers}}
+\resumeItemListEnd
+
+\resumeSubheading
+{VolunTrack Org.}{Toronto, ON}
+{President/Founder}{Jun 2022 - Sep 2024}
+\resumeItemListStart
+\resumeItem{Founded and scaled a \textbf{Non-profit organization} through a structured \textbf{Four-tier management system}, growing the company to \textbf{50+ members} and establishing partnerships with \textbf{100+ global non-profits}.}
+\resumeItem{Architected an \textbf{AI-powered volunteer matching system} using \textbf{TensorFlow} and \textbf{scikit-learn}, achieving \textbf{85\% matching accuracy} and reducing manual matching time by \textbf{70\%}.}
+\resumeItem{Developed a \textbf{full-stack volunteer platform} with \textbf{React Native} and \textbf{React.js}, integrating \textbf{MLOps practices} and \textbf{automated model retraining pipelines}, serving \textbf{1000+ monthly active users}.}
+\resumeItem{Implemented \textbf{real-time analytics} using \textbf{Firebase}, \textbf{Cloud Firestore}, and \textbf{TensorFlow.js}, deploying \textbf{ML models} for volunteer engagement prediction and churn analysis across \textbf{100+ organizations}.}
+\resumeItem{Established \textbf{AI innovation program}, leading to \textbf{30+} successful ML projects and \textbf{10+} conference speaking engagement.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\section{Project Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{YiXing - AI-Driven Personalized Travel Planner}{Toronto, ON}
+{Project Lead / Co-Founder}{Jun 2023 - May 2024}
+\resumeItemListStart
+\resumeItem{Led an \textbf{agile development team} of six in building an AI-powered travel planning platform, integrating \textbf{TensorFlow} and \textbf{GPT-based models} with \textbf{React Native} to generate personalized itineraries.}
+\resumeItem{Designed and implemented a \textbf{hybrid AI system} combining \textbf{TensorFlow recommendation models} and \textbf{RAG architecture}, improving travel suggestion accuracy by \textbf{35\%} and reducing response time by \textbf{90\%}.}
+\resumeItem{Built a \textbf{scalable backend architecture} with \textbf{AWS Lambda} and \textbf{TensorFlow Extended (TFX)}, orchestrating \textbf{vector databases} and \textbf{ML pipelines} for efficient travel plan generation.}
+\resumeItemListEnd
+
+\resumeSubheading
+  {ReassurED - LLM-Powered Emergency Care Guidance/Navigator}{Montreal, QC}
+  {Project Lead}{Sep 2024}
+  \resumeItemListStart
+    \resumeItem{Led a team through a \textbf{24-hour} hackathon, developed a cross-platform emergency healthcare app using \textbf{React Native (Expo)} and integrated real-time hospital data via \textbf{Firestore}.}
+    \resumeItem{Implemented \textbf{Dynamic triage} and hospital \textbf{Recommendations system} using \textbf{Medical Data in Few-shot Learning} with \textbf{Deepseek-v3} and \textbf{Custom weighting recommendation algorithm}.}
+    \resumeItem{Built scalable backend with \textbf{FastAPI} for real-time hospital info, leveraging web scraping and auto data updates.}
+    \resumeItem{Enhanced user experience with location-based hospital maps using \textbf{React-native-maps} and \textbf{expo-location}.}
+  \resumeItemListEnd
+
+  \resumeSubheading
+  {IEEE UofT}{Toronto, ON}
+  {Web Team Associate}{Jun 2024 - Present}
+  \resumeItemListStart
+    \resumeItem{Developed and maintained \textbf{full-stack web applications} with a \textbf{React.js frontend} and \textbf{Django backend}, enhancing IEEE UofT's main website and event platforms with a \textbf{responsive, user-friendly design}.}
+    \resumeItem{Improved performance by \textbf{optimizing APIs and caching}, reducing load times and enhancing \textbf{user experience}.}
+    \resumeItem{Collaborated within an \textbf{Agile team} to build and deploy new features and ensure a \textbf{seamless experience}.}
+    
+  \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\section{Skills}
+\resumeSubHeadingListStart
+  \resumeSubItem{Programming Languages:}{\textbf{Python}, JavaScript, \textbf{C/C++}, C\#, HTML, Swift, \textbf{MATLAB}}
+  \resumeSubItem{Frameworks \& Libraries:}{\textbf{TensorFlow}, \textbf{LangChain, OpenCV, YOLO, PyTorch}, React, Node.js, Django}
+  \resumeSubItem{Cloud \& DevOps:}{\textbf{Amazon Web Service}, \textbf{Google Cloud Platform}, Firebase, Git, CI/CD}
+  \resumeSubItem{Development Tools:}{\textbf{Vertex AI}, Github, Xcode, Unity, Fusion 360, Blender, AutoCAD}
+\resumeSubHeadingListEnd
+
+\end{document}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
