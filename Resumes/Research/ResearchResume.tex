@@ -50,7 +50,7 @@
 }
 
 \newcommand{\resumeSubheading}[4]{
-  \vspace{-2pt}\item
+  \vspace{3pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
@@ -80,6 +80,8 @@
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
+
+
 %-------------------------------------------
 %%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -88,11 +90,11 @@
 \begin{center}
     \textbf{\Large \scshape Shuolin (Leo) Yin} \\ \vspace{5pt}
     \small +1 (647) 674-6127   $|$ 
-    \href{mailto:shuolin.yin@gmail.com}{leo.yin@mail.utoronto.ca} \\
+    \href{mailto:leo.yin@mail.utoronto.ca}{leo.yin@mail.utoronto.ca} \\
     
-    \href{https://github.com/leoyin1127}{https://github.com/leoyin1127} $|$ 
-    \href{https://www.shuolinyin.com/}{https://www.shuolinyin.com/} $|$
-    \href{https://www.linkedin.com/in/shuolinyin/}{https://www.linkedin.com/in/shuolinyin/} \\
+  \href{https://github.com/leoyin1127}{GitHub} $|$
+  \href{https://www.shuolinyin.com/}{Website} $|$
+  \href{https://www.linkedin.com/in/shuolinyin/}{LinkedIn}
 \end{center}
 
 \section{Education}
@@ -101,8 +103,8 @@
   {University of Toronto}{Toronto, ON}
   {Bachelor of Applied Science and Engineering in Computer Engineering + PEY Co-op}{Sep 2023 -- Apr 2027}
   \resumeItemListStart
-    \resumeItem{Recipient of Faculty Of Applied Science And Engineering Admission Scholarship}
-    \resumeItem{Recipient of Edward S. Rogers Sr. Admission Scholarship}
+    \resumeItem{Recipient of Faculty Of Applied Science And Engineering Scholarship}
+    \resumeItem{Recipient of Edward S. Rogers Sr. Scholarship}
   \resumeItemListEnd
 \resumeSubHeadingListEnd
 
@@ -110,92 +112,69 @@
 \resumeSubHeadingListStart
 
 \resumeSubheading
-{Vector Institute \& University Health Network (WangLab)}{Toronto, ON}
-{Undergraduate Researcher supervised by Prof. Bo Wang and advised by Dr. Jun Ma}{May 2025 -- Present}
+{Vector Institute \& University Health Network — WangLab}{Toronto, ON}
+{Undergraduate Researcher (supervised by Prof. Bo Wang; advised by Dr. Jun Ma)}{May 2025 -- Present}
 \resumeItemListStart
-  \resumeItem{Train and refine \textbf{foundation models} with multitask and multi-modal learning on large-scale \textbf{2D and 3D medical datasets}, focusing on medical imaging representation learning.}
-  \resumeItem{Developed and organized \textbf{Baseline models} \& \textbf{data preprocessing pipelines} for the \textbf{MICCAI FLARE 2025} challenge.}
-  \resumeItem{Developed \textbf{ pathology report generation mllm framework} for \textbf{gigapixel whole-slide images}, implementing \textbf{multi-scale feature extraction} and \textbf{vision-language alignment} on \textbf{10,500+ multicenter cases}.}
-  \resumeItem{Trained \textbf{DINOv3 SSL foundation model} on \textbf{300M pathology images} across \textbf{39 cancer types} via \textbf{distributed training on multi-H100 clusters}, achieving \textbf{state-of-the-art representation learning} for downstream tasks.}
-  \resumeItem{Authored \textbf{educational framework paper} on medical vision-language model development (\textbf{finalist selection}), providing \textbf{end-to-end implementation guidelines with cookbook} from architecture design to clinical deployment.}
-  \resumeItem{Design and Benchmark experiments on \textbf{multi-GPU clusters} and contribute findings, code, and figures to \textbf{lab publications}}
-
+  \resumeItem{Pretrain and finetune \textbf{foundation models} for \textbf{multi-task, multimodal} learning on \textbf{large-scale 2D/3D medical} datasets.}
+  \resumeItem{Serve on the \textbf{Organizing Committee} for \textbf{MICCAI FLARE 2025}: define tasks, rules, and evaluation protocol; lead and release \textbf{3 baseline models (qwen2.5\&3 -vl, medgemma)} with dockerized framework and \textbf{data preprocessing pipelines}}
+  \resumeItem{Develop an \textbf{MLLM framework} for \textbf{pathology report generation} on \textbf{gigapixel whole-slide images}, implementing \textbf{multi-scale feature extraction} and \textbf{vision–language alignment} over \textbf{10{,}500+} multicenter cases}
+  \resumeItem{Train a \textbf{DINOv3 self-supervised} foundation model on \textbf{300M pathology images} spanning \textbf{39 cancer types} with \textbf{distributed H100 clusters}; achieve \textbf{state-of-the-art representations} for downstream tasks}
+  \resumeItem{Author an \textbf{educational framework paper} on medical vision–language model development (\textbf{MICCAI Educational Challenge finalist}), providing \textbf{end-to-end “cookbook” guidelines} from architecture design to clinical deployment}
+  \resumeItem{Design and benchmark experiments on \textbf{HPC clusters}; contribute \textbf{code, figures, and findings} to \textbf{lab publications}}
 \resumeItemListEnd
 
 \resumeSubheading
 {The Institute of Automation, Chinese Academy of Sciences (NLPR Lab)}{Beijing, China}
-{Research Assistant under Prof. Yang Yang, Prof. Jinlin Wu and Sr. PD Zhen Chen}{Feb 2024 - Sep 2024}
+{Research Assistant under Prof. Yang Yang, Prof. Jinlin Wu and Sr. PD Zhen Chen}{Feb 2024 -- Sep 2024}
 \resumeItemListStart
 \resumeItem{Streamlined research on \textbf{Medical multimodal large language models (MLLMs)} through systematic literature review and novel experimental design, developing methodology for \textbf{TPAMI submission}}
 \resumeItem{Engineered an \textbf{end-to-end data pipeline} for medical imaging benchmark creation, incorporating automated quality checks and custom annotation tools, resulting in \textbf{75\%} reduction in processing time and \textbf{40\%} improvement in annotation accuracy}
-\resumeItem{Developed a \textbf{Multimodal evaluation framework} using \textbf{PyTorch}, benchmarking \textbf{SOTA MLLMs} in \textbf{clinical medicine} with metrics for \textbf{accuracy}, \textbf{robustness}, and \textbf{cross-modal consistency}.}
-\resumeItem{Spearheaded \textbf{weekly technical discussions} and authored comprehensive \textbf{research documentation}, facilitating knowledge transfer across interdisciplinary teams of \textbf{medical experts} and \textbf{ML researchers}}
+\resumeItem{Built a \textbf{PyTorch-based multimodal evaluation suite} for \textbf{clinical VLM} (accuracy, robustness, cross-modal consistency) and automated report scoring, cut manual evaluation time by \textbf{30\%} and enabled weekly model iteration}
+\resumeItem{Facilitated \textbf{cross-functional collaboration} between \textbf{medical experts} and \textbf{ML researchers} through technical discussions}
 \resumeItemListEnd
 
 \resumeSubheading
 {VolunTrack Org.}{Toronto, ON}
-{President/Founder}{Jun 2022 - Sep 2024}
+{President/Founder}{Jun 2022 -- Sep 2024}
 \resumeItemListStart
-\resumeItem{Founded and scaled a \textbf{Non-Profit Organization} through a structured \textbf{Five-tier management system}, growing the company to \textbf{50+ members} and establishing partnerships with \textbf{100+ global non-profits}.}
-\resumeItem{Architected an \textbf{AI-powered volunteer matching system} using \textbf{TensorFlow} and \textbf{scikit-learn}, achieving \textbf{85\% matching accuracy} and reducing manual matching time by \textbf{70\%}.}
-\resumeItem{Implemented \textbf{real-time analytics} using \textbf{Firebase}, \textbf{Cloud Firestore}, and \textbf{TensorFlow.js}, deploying \textbf{ML models} for volunteer engagement prediction and churn analysis across \textbf{100+ organizations}.}
-\resumeItem{Established \textbf{AI innovation program}, leading to \textbf{30+} successful ML projects and \textbf{10+} conference speaking engagement.}
+\resumeItem{Founded and scaled a \textbf{non-profit organization} through a structured \textbf{five-tier management system}, growing the company to \textbf{50+ members} and establishing partnerships with \textbf{100+ global non-profits}, achieved \textbf{500+ monthly active users}}
+\resumeItem{Architected an \textbf{AI-powered volunteer matching system} using \textbf{TensorFlow} and \textbf{scikit-learn}, achieving \textbf{85\% matching accuracy} and reducing manual matching time by \textbf{70\%}}
+\resumeItem{Implemented \textbf{real-time analytics} using \textbf{Firebase}, \textbf{Cloud Firestore}, and \textbf{TensorFlow.js}, deploying \textbf{ML models} for volunteer engagement prediction and churn analysis across \textbf{100+ organizations}}
+\resumeItem{Established \textbf{AI innovation program}, leading to \textbf{30+} successful ML projects and \textbf{10+} conference speaking engagements}
 \resumeItemListEnd
 
 \resumeSubHeadingListEnd
 
-\section{Project Experience}
+\section{Projects}
 \resumeSubHeadingListStart
 
 \resumeSubheading
-{EZ-Career - Autonomous AI Job Application Agent}{Toronto, ON}
+{EZ-Career -- Autonomous AI Job Application Agent}{Toronto, ON}
 {AI Engineer \& Full Stack Developer}{April 2024 -- June 2024}
 \resumeItemListStart
-  \resumeItem{Architected a \textbf{state-of-the-art multi-agent AI system} using \textbf{OpenAI Agents SDK} with an \textbf{Agent-as-Tool} pattern, orchestrating specialized agents for end-to-end job application automation.}
-  \resumeItem{Developed \textbf{multiple custom Model Context Protocol (MCP) servers} (\textbf{playwright\_mcp, user\_assistance\_mcp, memory\_mcp...}) providing specialized tools for browser control, database operations, and agent memory management.}
-  \resumeItem{Built a scalable \textbf{FastAPI} backend with intelligent browser automation via custom \textbf{Playwright/CDP MCP server}, enabling precise web interaction and form filling across complex ATS platforms.}
-  \resumeItem{Engineered a \textbf{RAG memory system} using \textbf{Sentence Transformers} and \textbf{Supabase RPC} with \textbf{Human-in-the-Loop} design to prevent hallucination and ensure factual consistency across applications.}
+  \resumeItem{Architected a \textbf{state-of-the-art multi-agent AI system} using \textbf{OpenAI Agents SDK} with an \textbf{Agent-as-Tool} pattern, orchestrating specialized agents for end-to-end job application automation}
+  \resumeItem{Developed \textbf{multiple custom Model Context Protocol servers} (\textbf{playwright\_mcp, user\_assistance\_mcp, memory\_mcp\ldots}) providing specialized tools for browser control, database operations, and agent memory management}
+  \resumeItem{Engineered a \textbf{RAG memory system} using \textbf{Sentence Transformers} and \textbf{Supabase RPC} with \textbf{Human-in-the-Loop} design to prevent hallucination and ensure factual consistency across applications}
 \resumeItemListEnd
 
 \resumeSubheading
-{Echo - AI-Powered Sustainable Fashion Marketplace}{Global}
+{Echo -- AI-Powered Sustainable Fashion Marketplace}{Global}
 {Lead Developer}{March 2025}
 \resumeItemListStart
-  \resumeItem{Winner of the BCG \& Global Spark 'Hack the Globe' Hackathon (1st place in Canada, 2nd place globally) as sole developer, building an AI-powered mobile marketplace for sustainable second-hand fashion.}
-  \resumeItem{Developed an \textbf{AI stylist agent} using \textbf{Open Router} and \textbf{RAG} for personalized recommendations, integrated with a \textbf{swipe-based discovery interface} powered by \textbf{GCP Analytics} and \textbf{Multimodal LLMs}.}
-  \resumeItem{Implemented \textbf{Computer Vision-based product authentication} with custom algorithms for item verification and condition assessment, ensuring quality assurance across the platform.}
-  \resumeItem{Built full-stack application using \textbf{React Native}, \textbf{Node.js/Express}, and \textbf{PostgreSQL} with \textbf{JWT} and \textbf{Zod validation}.}
+\resumeItem{Sole developer; \textbf{won BCG \& Global Spark \emph{Hack the Globe} (1\textsuperscript{st} in Canada, 2\textsuperscript{nd} globally)} with an AI-powered mobile marketplace for sustainable second-hand fashion within 48 hours}
+  \resumeItem{Developed an \textbf{AI stylist agent} using \textbf{Open Router} and \textbf{RAG} for personalized recommendations, integrated with a \textbf{swipe-based discovery interface} powered by \textbf{GCP Analytics} and \textbf{Multimodal LLMs}}
+  \resumeItem{Shipped \textbf{vision-based item verification \& condition grading} using \textbf{YOLOv11n} (defect detection: stains/tears/pilling), automating quality assurance and flagging brand/label mismatches, achieved \textbf{90\%} accuracy on verification set}
+  \resumeItem{Built full-stack application using \textbf{React Native}, \textbf{Node.js/Express}, and \textbf{PostgreSQL} with \textbf{JWT} and \textbf{Zod validation}}
 \resumeItemListEnd
-
-% \resumeSubheading
-% {ReassurED - Medical AI-Powered Emergency Care Navigator}{Montreal, QC}
-% {Project Lead}{Sep 2024}
-% \resumeItemListStart
-% \resumeItem{Led development of an \textbf{AI-driven medical triage system} through a \textbf{24-hour} hackathon, integrating \textbf{clinical guidelines} and \textbf{real-time hospital data} via \textbf{React Native} and \textbf{Firestore}.}
-% \resumeItem{Implemented an \textbf{intelligent triage algorithm} using \textbf{Few-Shot Learning} through \textbf{medical examples} and \textbf{COT reasoning prompts} with \textbf{Deepseek-v3}, achieving \textbf{90\%} alignment with standard \textbf{Emergency Severity Index (ESI)} guidelines.}
-% \resumeItem{Built secure backend with \textbf{Firestore} and \textbf{FastAPI}, implementing \textbf{structured medical data processing with SNOMED-CT integration} and web scraped \textbf{hospital Data integration} for real-time wait times.}
-% \resumeItem{Developed a \textbf{hospital recommendation system} combining \textbf{LLM-based assessment} with \textbf{weighted algorithm}, factoring in \textbf{emergency wait times}, \textbf{facility specializations}, and \textbf{distance metrics} to reduce patient decision time by \textbf{70\%}.}
-% \resumeItemListEnd
-
-
-  % \resumeSubheading
-  % {IEEE UofT}{Toronto, ON}
-  % {Web Team Associate}{Jun 2024 - Present}
-  % \resumeItemListStart
-  %   \resumeItem{Developed and maintained \textbf{full-stack web applications} with a \textbf{React.js frontend} and \textbf{Django backend}, enhancing IEEE UofT's main website and event platforms with a \textbf{responsive, user-friendly design}.}
-  %   \resumeItem{Improved performance by \textbf{optimizing APIs and caching}, reducing load times and enhancing \textbf{user experience}.}
-  %   \resumeItem{Collaborated within an \textbf{Agile team} to build and deploy new features and ensure a \textbf{seamless experience}.}
-    
-  % \resumeItemListEnd
 
 \resumeSubHeadingListEnd
 
 \section{Skills}
 \resumeSubHeadingListStart
-  \resumeSubItem{Programming Languages:}{\textbf{Python}, JavaScript, \textbf{C/C++}, C\#, HTML, Swift, \textbf{MATLAB}}
-  \resumeSubItem{Frameworks \& Libraries:}{\textbf{TensorFlow}, \textbf{LangChain, OpenCV, YOLO, PyTorch}, React, Node.js, Django}
-  \resumeSubItem{Cloud \& DevOps:}{\textbf{Amazon Web Service}, \textbf{Google Cloud Platform}, Firebase, Git, CI/CD}
-  \resumeSubItem{Development Tools:}{\textbf{Vertex AI}, Github, Xcode, Unity, Fusion 360, Blender, AutoCAD}
+  \resumeSubItem{Programming Languages:}{\textbf{Python}, \textbf{C/C++}, \textbf{MATLAB}, JavaScript, Typescript, C\#, HTML, Swift, SQL, Bash, LaTeX}
+  \resumeSubItem{ML/DL Frameworks:}{\textbf{PyTorch}, \textbf{TensorFlow}, \textbf{Hugging Face}, \textbf{OpenCV}, \textbf{YOLO}, \textbf{LangChain}, \textbf{scikit-learn}}
+  \resumeSubItem{Cloud Infrastructure:}{\textbf{GCP}, \textbf{AWS}, \textbf{HPC clusters}, \textbf{Multi-GPU Clusters}, \textbf{Docker}, Firebase, Git, CI/CD}
+  \resumeSubItem{Research/Dev Tools:}{\textbf{Vertex AI}, \textbf{Weights \& Biases}, \textbf{Jupyter}, \textbf{MLflow}, Xcode, React/React Native, Node.js/Express, Docker}
 \resumeSubHeadingListEnd
 
 \end{document}
