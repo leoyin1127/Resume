@@ -45,7 +45,7 @@
 % Custom commands
 \newcommand{\resumeItem}[1]{
   \item\small{
-    {#1 \vspace{-5pt}}
+    {#1 \vspace{-4pt}}
   }
 }
 
@@ -75,7 +75,10 @@
 
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.05in, label={}]}
+\newcommand{\resumeSubHeadingListStart}{
+  \begin{itemize}[leftmargin=0.05in, label={}]
+    \vspace{-5pt}
+  }
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
@@ -171,6 +174,7 @@
 
 \section{Skills}
 \resumeSubHeadingListStart
+\vspace{5pt}
   \resumeSubItem{Programming Languages:}{\textbf{Python}, \textbf{C/C++}, \textbf{MATLAB}, JavaScript, Typescript, C\#, HTML, Swift, SQL, Bash, LaTeX}
   \resumeSubItem{ML/DL Frameworks:}{\textbf{PyTorch}, \textbf{TensorFlow}, \textbf{Hugging Face}, \textbf{OpenCV}, \textbf{YOLO}, \textbf{LangChain}, \textbf{scikit-learn}}
   \resumeSubItem{Cloud Infrastructure:}{\textbf{GCP}, \textbf{AWS}, \textbf{HPC clusters}, \textbf{Multi-GPU Clusters}, \textbf{Docker}, Firebase, Git, CI/CD}
